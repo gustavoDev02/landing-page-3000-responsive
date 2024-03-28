@@ -583,7 +583,7 @@ footer{
     }
 
     .funcionalidades{
-        height: 190rem;
+        height: 200rem;
     }
 
     .funcionalidades-info{
@@ -674,6 +674,12 @@ footer{
         flex-basis: 15rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
     }
 
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
 }
 
 
