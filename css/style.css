@@ -502,6 +502,11 @@ footer{
 
 @media (max-width: 768px){
 
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .navbar{
         width: 0%;
     }
@@ -512,6 +517,16 @@ footer{
 
     nav >a{
         overflow: hidden;
+    }
+
+    nav{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        display: flex;
+        justify-content: center;
+       
     }
 
     .produto{
@@ -583,7 +598,7 @@ footer{
     }
 
     .funcionalidades{
-        height: 200rem;
+        height: 220rem;
     }
 
     .funcionalidades-info{
@@ -674,12 +689,7 @@ footer{
         flex-basis: 15rem; /* define comprimento(parecido com widht) de um item flex - se não for flex não tem efeito */
     }
 
-    .logo{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
+    
 }
 
 
